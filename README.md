@@ -20,5 +20,5 @@ A powerful, automated Telegram bot built with Python and Playwright that allows 
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/khtab0x/Small-tool-for-Instagram.git https://github.com/khtab0x/Small-tool-for-Instagram.git
+   git clone https://github.com/khtab0x/Small-tool-for-Instagram.git
    cd Small-tool-for-Instagram
