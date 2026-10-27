@@ -7,14 +7,13 @@ For people who want to delete comments on their Instagram account, You have come
 ## What can this tool do?
 
 - You can specify the number of comments you want to delete at once `5, 10, 15, 20, 25`.
-- Live screenshot support while the browser is running
 - Automatic browser cleanup when operations stop
 - Privacy-focused behavior: the `sessionid` message is deleted immediately after saving
 
 ## Requirements
 
 - Python 3.8+
-- Telegram Bot Token from [t.me/botfather](@BotFather)
+- Telegram Bot Token from [@BotFather](t,me/botfather)
 - Instagram `sessionid` cookie from your authenticated browser session
 
 ## Repository Structure
