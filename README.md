@@ -68,7 +68,7 @@ Typical ways to get it:
 - Find the `sessionid` cookie for `instagram.com`
 - Copy it and save it in the Telegram bot
 
-**⚠ Your `sessionid` it will be deleted after you send it to the Bot for your safe**
+>**⚠ Your `sessionid` it will be deleted after you send it to the Bot for your safe**
 
 ## Usage
 
