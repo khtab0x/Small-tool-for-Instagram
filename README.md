@@ -4,11 +4,9 @@ For people who want to delete comments on their Instagram account, You have come
 
 > **⚠ You should use the tool for a while, then stop it, and after a few minutes start it up again so your account doesn't get banned**
 
-## Features
+## What can this tool do?
 
-- Telegram-based control panel with inline buttons
-- Bulk comment deletion using a headless browser
-- Adjustable batch sizes (5, 10, 15, 20, 25)
+- You can specify the number of comments you want to delete at once `5, 10, 15, 20, 25`.
 - Live screenshot support while the browser is running
 - Automatic browser cleanup when operations stop
 - Privacy-focused behavior: the `sessionid` message is deleted immediately after saving
@@ -16,9 +14,8 @@ For people who want to delete comments on their Instagram account, You have come
 ## Requirements
 
 - Python 3.8+
-- Telegram Bot Token from @BotFather
+- Telegram Bot Token from [t.me/botfather](@BotFather)
 - Instagram `sessionid` cookie from your authenticated browser session
-- Chromium browser support via Playwright
 
 ## Repository Structure
 
@@ -62,7 +59,7 @@ with your actual Telegram bot token.
 
 ## Getting the Instagram Session ID
 
-You need a valid Instagram `sessionid` cookie to authenticate the browser session.
+You need a valid Instagram `sessionid`
 
 Typical ways to get it:
 
@@ -70,9 +67,9 @@ Typical ways to get it:
 - Open Developer Tools
 - Go to Application / Storage > Cookies
 - Find the `sessionid` cookie for `instagram.com`
-- Copy the value and save it in the Telegram bot when prompted
+- Copy it and save it in the Telegram bot
 
-Important: Treat this value as sensitive data. Never share it publicly or commit it to version control.
+**⚠ Your `sessionid` it will be deleted after you send it to the Bot for your safe**
 
 ## Usage
 
@@ -88,26 +85,8 @@ On Telegram:
 2. Tap `Set Session ID`
 3. Paste your Instagram `sessionid`
 4. Tap `Start fast cleaning`
-5. Optionally adjust batch size or request a live screenshot
+5. You can tap `Live screenshot` to see what's going on with your acc.
 
-## Behavior Notes
-
-- The bot automates activity in a headless browser and interacts with Instagram pages in real time.
-- If the `sessionid` is invalid or expired, the automation will stop and ask you to re-enter it.
-- If Instagram changes its page structure or selectors, the script may need updates.
-
-## Security and Compliance
-
-- Use only on accounts you own or are authorized to manage.
-- Never expose credentials, cookies, tokens, or screenshots in public repositories or logs.
-- Respect Instagram's terms and conditions and avoid abusive or excessive automation.
-- The project does not guarantee uninterrupted functionality due to changes in Instagram's web UI.
-
-### Session ID invalid
-
-- Regenerate the cookie in your browser
-- Ensure you are logged in to the correct Instagram account
-- Try again with a fresh session
 
 ### Bot not responding
 
@@ -117,7 +96,7 @@ On Telegram:
 
 ## Windows Quick Start
 
-If you are on Windows, you can use the bundled launcher:
+If you are on Windows, just do this:
 
 ```bat
 start.bat
@@ -127,4 +106,4 @@ This script installs dependencies and launches the bot automatically.
 
 ## Disclaimer
 
-This project is for educational and automation experimentation purposes. It is not affiliated with, endorsed by, or sponsored by Instagram or Telegram. Use it responsibly and in compliance with the applicable platform policies.
+**⚠This project is for educational and automation experimentation purposes. It is not affiliated with, endorsed by, or sponsored by Instagram or Telegram. Use it responsibly and in compliance with the applicable platform policies.**
