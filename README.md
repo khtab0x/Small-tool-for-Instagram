@@ -13,7 +13,7 @@ For people who want to delete comments on their Instagram account, You have come
 ## Requirements
 
 - Python 3.8+
-- Telegram Bot Token from [@BotFather](t,me/botfather)
+- Telegram Bot Token from [@BotFather](https://t,me/botfather)
 - Instagram `sessionid` cookie from your authenticated browser session
 
 ## Repository Structure
