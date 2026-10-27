@@ -50,12 +50,6 @@ venv\Scripts\activate      # Windows
 pip install -r requirements.txt
 ```
 
-4. Install the browser runtime for Playwright:
-
-```bash
-playwright install chromium
-```
-
 ## Configuration
 
 Open `app.py` and replace the placeholder token:
