@@ -103,16 +103,6 @@ On Telegram:
 - Respect Instagram's terms and conditions and avoid abusive or excessive automation.
 - The project does not guarantee uninterrupted functionality due to changes in Instagram's web UI.
 
-## Troubleshooting
-
-### Browser not starting
-
-Make sure Chromium is installed:
-
-```bash
-playwright install chromium
-```
-
 ### Session ID invalid
 
 - Regenerate the cookie in your browser
