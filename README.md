@@ -105,4 +105,4 @@ This script installs dependencies and launches the bot automatically.
 
 ## Disclaimer
 
-**⚠This project is for educational and automation experimentation purposes. It is not affiliated with, endorsed by, or sponsored by Instagram or Telegram. Use it responsibly and in compliance with the applicable platform policies.**
+>**⚠ This project is for educational and automation experimentation purposes. It is not affiliated with, endorsed by, or sponsored by Instagram or Telegram. Use it responsibly and in compliance with the applicable platform policies**
