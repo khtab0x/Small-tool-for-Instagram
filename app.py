@@ -387,7 +387,7 @@ def save_session_step(message):
     bot.delete_message(chat_id, message.message_id)
   except Exception:
     pass
-  update_panel(chat_id, "Session ID saved! Ready to start.")
+  update_panel(chat_id, "Session ID saved! Ready to start✅.")
 
 
 if __name__ == "__main__":
