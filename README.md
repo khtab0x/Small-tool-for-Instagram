@@ -1,8 +1,8 @@
 # Fast Instagram Comments Cleaner Bot
 
-A Python-based Telegram bot that automates deletion of Instagram comments from the Instagram Activity Center using Playwright. The bot provides a simple Telegram control panel so you can start/stop cleaning, adjust batch size, set your Instagram `sessionid`, and capture live screenshots of the browser.
+For people who want to delete comments on their Instagram account, You have come to the right place > you can use this little tool
 
-This project is intended for managing your own Instagram account and should be used responsibly and in compliance with Instagram's terms, platform policies, and applicable laws.
+> **⚠ You should use the tool for a while, then stop it, and after a few minutes start it up again so your account doesn't get banned**
 
 ## Features
 
